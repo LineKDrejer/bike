@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+    color: rgb(116, 116, 116);
+    font-size: medium;
+}
+
+
+body {
+background-color: rgb(241, 241, 233);
+margin: 0 2rem;
+}
+
+.logo {
+display:block;
+margin-top: 3rem;
+margin-bottom: 1rem;
+}
+
+h1 {
+margin-bottom: 4rem;
+letter-spacing: 8px;
+}
+
+.bikes {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+grid-gap: 4rem;
+
+} 
+
+.bikes img {
+width: 100%;
+background-color: white;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+.bikes div {
+background-color: white;
+padding-bottom: 1rem;
+}
+
+h2 {
+    border-bottom: 1px solid rgb(204, 199, 199);
+}
+
+.info {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.info p {
+    padding: 0.8rem 1rem;
+    
+}
+
+.info a {    
+    border: 1px solid  brown;
+    align-self: center;
+}
